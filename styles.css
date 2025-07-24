@@ -1,0 +1,27 @@
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header{
+    text-align: center;
+}
+
+.cards{
+    background-color: brown;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 15px;
+    margin-right: 60px;
+    margin-left: 60px;
+    width: 300px;
+    text-align: center;
+}
+
+#theBox{
+    display: flex;
+    justify-content: center;
+}
